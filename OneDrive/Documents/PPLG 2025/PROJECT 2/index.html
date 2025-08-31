@@ -1,120 +1,112 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Web Pertama Saya</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-  <!--
-    <h1>The Basic Language of The Web: HTML</h1>
-    <h2>The Basic Language of The Web: HTML</h2>
-    <h3>The Basic Language of The Web: HTML</h3>
-    <h4>The Basic Language of The Web: HTML</h4>
-    <h5>The Basic Language of The Web: HTML</h5>
-    <h6>The Basic Language of The Web: HTML</h6>
-  -->
+  <div class="mb-8 h-12 bg-blue-400">
+    <div class="mx-auto flex h-full max-w-7xl items-center justify-between px-6">
+      <!-- Logo -->
+      <a class="text-lg font-bold text-white" href="">Myanaa Store</a>
 
-  <h1>The Code Magazine 📘</h1>
+      <!-- Navigation Links -->
+      <div class="flex space-x-8 font-medium text-white">
+        <a href="">Beranda</a>
+        <a href="">Product</a>
+        <a href="">Macbook</a>
+        <a href="">AirPods</a>
+        <a href="">Imac</a>
+        <a href="">iPhone</a>
+        <a href="">iPad</a>
+        <a href="">Login</a>
+        <a href="">Contact Us</a>
+      </div>
+    </div>
 
-  <header>
-    <h2>The Basic Language</h2>
+    <div class="text-3xl font-bold text-center text-blue-500 mt-12 my-24">
+      <p>Apple Menghadirkan Penawaran Produk Baru</p>
+    </div>
 
-    <img src="post-img.jpg" alt="poto" width="50" height="50">
-  </header>
+    <!-- Container untuk Produk -->
+    <div class="mt-8 mx-auto max-w-7xl px-6">
+      <!-- Grid 4 Kolom -->
+      <div class="grid grid-cols-4 gap-6">
 
-  <nav>
-    <a href="blog.html" target="_blank">Blog</a>
-    <a href="#">Chalenge</a>
-    <a href="#">Flexbox</a>
-    <a href="#">CSS Grid</a>
-  </nav>
+        <!-- Card 1 -->
+        <div class="overflow-hidden rounded-2xl bg-blue-50 shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="border-b p-4">
+            <h1 class="text-xl font-bold text-blue-500 text-center">MacBook Air M4</h1>
+          </div>
+          <img src="Layar Macbook.png" alt="MacBook Air M4" class="h-48 w-full object-cover" />
+          <div class="p-4">
+            <p class="mb-2 text-lg font-semibold text-blue-600">8/256 GB - 16/512GB</p>
+            <p class="text-sm text-gray-600">Dirancang untuk melindungi privasi pengguna di setiap langkah, Apple
+              Intelligence menggunakan pemrosesan di perangkat...</p>
+          </div>
+          <div class="flex justify-between space-x-2 p-3 mt-5">
+            <button class="flex-1 rounded-lg bg-blue-500 py-2 text-white hover:bg-blue-600">Beli Disini</button>
+            <button class="flex-1 rounded-lg bg-gray-200 py-2 text-gray-800 hover:bg-gray-300">Cek Selengkapnya</button>
+          </div>
+        </div>
 
-  <article>
+        <!-- Card 2 -->
+        <div class="overflow-hidden rounded-2xl bg-blue-50 shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="border-b p-4">
+            <h1 class="text-xl font-bold text-blue-500 text-center">AirPods Pro Gen 3</h1>
+          </div>
+          <img src="Layar Macbook.png" alt="MacBook Air M4" class="h-48 w-full object-cover" />
+          <div class="p-4">
+            <p class="mb-2 text-lg font-semibold text-blue-600">8/256 GB - 16/512GB</p>
+            <p class="text-sm text-gray-600">Dirancang untuk melindungi privasi pengguna di setiap langkah, Apple
+              Intelligence menggunakan pemrosesan di perangkat...</p>
+          </div>
+          <div class="flex justify-between space-x-2 p-3 mt-5">
+            <button class="flex-1 rounded-lg bg-blue-500 py-2 text-white hover:bg-blue-600">Beli Disini</button>
+            <button class="flex-1 rounded-lg bg-gray-200 py-2 text-gray-800 hover:bg-gray-300">Cek Selengkapnya</button>
+          </div>
+        </div>
 
-    <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
-    <img src="post-img.jpg" alt="image-1">
-    <h1>The Basic Language of The Web: HTML</h1>
-    <p>
-      All modern websites and web applications are built using three
-      <i>fundamental</i>
-      technologies: HTML, CSS and JavaScript. These are the languages of the
-      web.
-    </p>
-    <p>
-      In this post, let's focus on HTML. We will learn what HTML is all about,
-      and why you too should learn it.
-    </p>
-    <h3>What is HTML?</h3>
-    <p>
-      HTML stands for <strong>H</strong>yper <strong>T</strong>ext <strong>T</strong>arkup <strong>L</strong>anguage.
-      It's
-      a markup language that web
-      developers use to structure and describe the content of a webpage (not a
-      programming language).
-    </p>
-    <p>
-      HTML consists of elements that describe different types of content:
-      paragraphs, links, headings, images, video, etc. Web browsers understand
-      HTML and render HTML code as websites.
-    </p>
-    <p>
-      In HTML, each element is made up of 3 parts. The opening tag, the closing
-      tag, and the actual element. You can learn more at the MDN Web Docs.
-    </p>
+        <!-- Card 3 -->
+        <div class="overflow-hidden rounded-2xl bg-blue-50 shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="border-b p-4">
+            <h1 class="text-xl font-bold text-blue-500 text-center">IPhone 16</h1>
+          </div>
+          <img src="Layar Macbook.png" alt="MacBook Air M4" class="h-48 w-full object-cover" />
+          <div class="p-4">
+            <p class="mb-2 text-lg font-semibold text-blue-600">8/256 GB - 16/512GB</p>
+            <p class="text-sm text-gray-600">Dirancang untuk melindungi privasi pengguna di setiap langkah, Apple
+              Intelligence menggunakan pemrosesan di perangkat...</p>
+          </div>
+          <div class="flex justify-between space-x-2 p-3 mt-5">
+            <button class="flex-1 rounded-lg bg-blue-500 py-2 text-white hover:bg-blue-600">Beli Disini</button>
+            <button class="flex-1 rounded-lg bg-gray-200 py-2 text-gray-800 hover:bg-gray-300">Cek Selengkapnya</button>
+          </div>
+        </div>
 
-    <p>In HTML, each element is made up of 3 parts:</p>
+        <!-- Card 4 -->
+        <div class="overflow-hidden rounded-2xl bg-blue-50 shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="border-b p-4">
+            <h1 class="text-xl font-bold text-blue-500 text-center">Imac Pro M4</h1>
+          </div>
+          <img src="Layar Macbook.png" alt="MacBook Air M4" class="h-48 w-full object-cover" />
+          <div class="p-4">
+            <p class="mb-2 text-lg font-semibold text-blue-600">8/256 GB - 16/512GB</p>
+            <p class="text-sm text-gray-600">Dirancang untuk melindungi privasi pengguna di setiap langkah, Apple
+              Intelligence menggunakan pemrosesan di perangkat...</p>
+          </div>
+          <div class="flex justify-between space-x-2 p-3 mt-5">
+            <button class="flex-1 rounded-lg bg-blue-500 py-2 text-white hover:bg-blue-600">Beli Disini</button>
+            <button class="flex-1 rounded-lg bg-gray-200 py-2 text-gray-800 hover:bg-gray-300">Cek Selengkapnya</button>
+          </div>
+        </div>
 
-    <ul>
-      <li>The opening tag</li>
-      <li>The closing tag</li>
-      <li>The actual element</li>
-      <li>You can learn more at the MDN Web Docs.</li>
-    </ul>
-
-    <ol>
-      <li>The opening tag</li>
-      <li>The closing tag</li>
-      <li>The actual element</li>
-      <li>You can learn more at the MDN Web Docs.</li>
-    </ol>
-
-    <h2>Why should you learn HTML?</h2>
-    <p>There are countless reasons for learning the fundamental language of the web. Here are 5 of them:</p>
-
-    <ul>
-      <li>To be able to use the fundamental w4eb dev language</li>
-      <li>To hand-craft beautiful websites instead of relying on tools like Worpress or Wix</li>
-      <li>To build web applications</li>
-      <li>To impress friends</li>
-      <li>To have fun 😃</li>
-    </ul>
-    <p>Hopefully you learned something new here. See you next time!</p>
-
-  </article>
-
-  <h3>Related posts</h3>
-
-  <ul>
-    <li><img src="post-img.jpg" alt="Person programming" width="75" height="75"> <a href="">How to Learn Web
-        Development</a></li>
-    <p>By Jonas Schmedtmann</p>
-
-    <li><img src="related-1.jpg" alt="Lightning" width="75" height="75"> <a href="">The Unknown Powers of CSS</a></li>
-    <p>By Jim Dillon</p>
-
-    <li><img src="related-2.jpg" alt="JavaScript code on a screen" width="75" height="75"> <a href=""> Why
-        JavaScript is
-        Awesome</a></li>
-    <p>By Matilda</p>
-  </ul>
-
-  <a href="https://dibimbing.id/" target="_blank">Klik Link Disini yaa</a>
-
-  <footer>Copyright © 2027 by The Code Magazine.</footer>
-
+      </div>
+    </div>
 
 </body>
 
