@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4; /* warna latar belakang halaman */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.product-card {
+  width: 600px;
+  padding: 20px;
+  border-radius: 15px;
+  /* background: linear-gradient(135deg, #3b82f6, #1e3a8a); gradasi biru */
+  background: linear-gradient(135deg, #063970, #3167cb); gradasi biru
+  color: white;
+  text-align: center;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-card h1 {
+  margin-bottom: 10px;
+}
+
+.product-card .harga {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.product-card .deskripsi-product p {
+  margin: 8px 0;
+}
+
+.product-card button {
+  background-color: #ffffff;
+  color: #1e3a8a;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.product-card button:hover {
+  background-color: #f1f1f1;
+}
+
+.nama-product {
+  color: #f1f1f1;
+}
+
+.harga {
+  color: #f1f1f1;
+}
+
+.deskripsi-product {
+  color: #f1f1f1;
+}
+
+.button {
+  border-radius: 100px;
+}
+
+.product-card2 {
+  width: 600px;
+  padding: 20px;
+  border-radius: 15px;
+  /* background: linear-gradient(135deg, #3b82f6, #1e3a8a); gradasi biru */
+  background: linear-gradient(135deg, #063970, #3167cb); gradasi biru
+  color: white;
+  text-align: center;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-card2 img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-card2 h1 {
+  margin-bottom: 10px;
+}
+
+.product-card2 .harga {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.product-card2 .deskripsi-product p {
+  margin: 8px 0;
+}
+
+.product-card2 button {
+  background-color: #ffffff;
+  color: #1e3a8a;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.product-card button:hover {
+  background-color: #f1f1f1;
+}
+
+.nama-product {
+  color: #f1f1f1;
+}
+
+.harga {
+  color: #f1f1f1;
+}
+
+.deskripsi-product {
+  color: #f1f1f1;
+}
+
+.button {
+  border-radius: 100px;
+}
